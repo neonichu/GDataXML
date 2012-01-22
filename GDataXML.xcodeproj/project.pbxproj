@@ -62,7 +62,30 @@
 		8A8D4EA713830C19006504B9 /* GDataXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A8D4E7013830C19006504B9 /* GDataXMLNode.h */; };
 		8A8D4EA813830C19006504B9 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D4E7113830C19006504B9 /* GDataXMLNode.m */; };
 		8A8D4EA913830C19006504B9 /* GDataXML-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 8A8D4E7213830C19006504B9 /* GDataXML-Prefix.pch */; };
+		8A8D4EBA138312F1006504B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8D4EB9138312F1006504B9 /* UIKit.framework */; };
+		8A8D4EBB138312F1006504B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8D4E241382DA88006504B9 /* Foundation.framework */; };
+		8A8D4EBD138312F1006504B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8D4EBC138312F1006504B9 /* CoreGraphics.framework */; };
+		8A8D4EC9138312F1006504B9 /* TestsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D4EC8138312F1006504B9 /* TestsAppDelegate.m */; };
+		8A8D4EDC1383136A006504B9 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8D4EDB1383136A006504B9 /* GHUnitIOS.framework */; };
+		8A8D4EDE13831442006504B9 /* GHUnitIOSTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D4EDD13831442006504B9 /* GHUnitIOSTestMain.m */; };
+		8A8D4EE9138314FC006504B9 /* ZdfMediathekHtmlTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D4EE8138314FC006504B9 /* ZdfMediathekHtmlTest.m */; };
+		8A8D4F0F13831B06006504B9 /* libGDataXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8D4E211382DA88006504B9 /* libGDataXML.a */; };
+		8A8D4F1113831EBC006504B9 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8D4F1013831EBC006504B9 /* libxml2.dylib */; };
+		8A8D4F1313831FE8006504B9 /* localize.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D4F1213831FE8006504B9 /* localize.c */; };
+		8A8D4F161383202D006504B9 /* zdf-mediathek.html in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D4F151383202D006504B9 /* zdf-mediathek.html */; };
+		8A8D4F19138321DF006504B9 /* HtmlTidy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A8D4F17138321DF006504B9 /* HtmlTidy.h */; };
+		8A8D4F1A138321DF006504B9 /* HtmlTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D4F18138321DF006504B9 /* HtmlTidy.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A8D4F0C13831AFE006504B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A8D4E181382DA87006504B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A8D4E201382DA88006504B9;
+			remoteInfo = GDataXML;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8A8D4E211382DA88006504B9 /* libGDataXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGDataXML.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +144,21 @@
 		8A8D4E7013830C19006504B9 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
 		8A8D4E7113830C19006504B9 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
 		8A8D4E7213830C19006504B9 /* GDataXML-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GDataXML-Prefix.pch"; sourceTree = "<group>"; };
+		8A8D4EB7138312F1006504B9 /* Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8D4EB9138312F1006504B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A8D4EBC138312F1006504B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A8D4EC0138312F1006504B9 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Tests-Info.plist"; path = "Supporting Files/Tests-Info.plist"; sourceTree = "<group>"; };
+		8A8D4EC4138312F1006504B9 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Tests-Prefix.pch"; path = "Supporting Files/Tests-Prefix.pch"; sourceTree = "<group>"; };
+		8A8D4EC7138312F1006504B9 /* TestsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestsAppDelegate.h; path = "Supporting Files/TestsAppDelegate.h"; sourceTree = "<group>"; };
+		8A8D4EC8138312F1006504B9 /* TestsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TestsAppDelegate.m; path = "Supporting Files/TestsAppDelegate.m"; sourceTree = "<group>"; };
+		8A8D4EDB1383136A006504B9 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		8A8D4EDD13831442006504B9 /* GHUnitIOSTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GHUnitIOSTestMain.m; path = "Supporting Files/GHUnitIOSTestMain.m"; sourceTree = "<group>"; };
+		8A8D4EE8138314FC006504B9 /* ZdfMediathekHtmlTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZdfMediathekHtmlTest.m; sourceTree = "<group>"; };
+		8A8D4F1013831EBC006504B9 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		8A8D4F1213831FE8006504B9 /* localize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = localize.c; sourceTree = "<group>"; };
+		8A8D4F151383202D006504B9 /* zdf-mediathek.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zdf-mediathek.html"; sourceTree = "<group>"; };
+		8A8D4F17138321DF006504B9 /* HtmlTidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlTidy.h; sourceTree = "<group>"; };
+		8A8D4F18138321DF006504B9 /* HtmlTidy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlTidy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,15 +170,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8A8D4EB4138312F1006504B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8D4F1113831EBC006504B9 /* libxml2.dylib in Frameworks */,
+				8A8D4F0F13831B06006504B9 /* libGDataXML.a in Frameworks */,
+				8A8D4EBA138312F1006504B9 /* UIKit.framework in Frameworks */,
+				8A8D4EBB138312F1006504B9 /* Foundation.framework in Frameworks */,
+				8A8D4EBD138312F1006504B9 /* CoreGraphics.framework in Frameworks */,
+				8A8D4EDC1383136A006504B9 /* GHUnitIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		8A8D4E161382DA87006504B9 = {
 			isa = PBXGroup;
 			children = (
-				8A8D4E3513830C19006504B9 /* Examples */,
 				8A8D4E3613830C19006504B9 /* Externals */,
 				8A8D4E6E13830C19006504B9 /* Sources */,
+				8A8D4EBE138312F1006504B9 /* Tests */,
 				8A8D4E231382DA88006504B9 /* Frameworks */,
 				8A8D4E221382DA88006504B9 /* Products */,
 			);
@@ -149,7 +200,7 @@
 		8A8D4E221382DA88006504B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8A8D4E211382DA88006504B9 /* libGDataXML.a */,
+				8A8D4EB7138312F1006504B9 /* Tests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,16 +208,14 @@
 		8A8D4E231382DA88006504B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8A8D4E211382DA88006504B9 /* libGDataXML.a */,
+				8A8D4F1013831EBC006504B9 /* libxml2.dylib */,
+				8A8D4EDB1383136A006504B9 /* GHUnitIOS.framework */,
 				8A8D4E241382DA88006504B9 /* Foundation.framework */,
+				8A8D4EB9138312F1006504B9 /* UIKit.framework */,
+				8A8D4EBC138312F1006504B9 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8A8D4E3513830C19006504B9 /* Examples */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Examples;
 			sourceTree = "<group>";
 		};
 		8A8D4E3613830C19006504B9 /* Externals */ = {
@@ -226,6 +275,7 @@
 				8A8D4E5513830C19006504B9 /* istack.c */,
 				8A8D4E5613830C19006504B9 /* lexer.c */,
 				8A8D4E5713830C19006504B9 /* lexer.h */,
+				8A8D4F1213831FE8006504B9 /* localize.c */,
 				8A8D4E5913830C19006504B9 /* mappedio.c */,
 				8A8D4E5A13830C19006504B9 /* mappedio.h */,
 				8A8D4E5B13830C19006504B9 /* message.h */,
@@ -256,6 +306,8 @@
 			children = (
 				8A8D4E6F13830C19006504B9 /* GDataXML */,
 				8A8D4E7213830C19006504B9 /* GDataXML-Prefix.pch */,
+				8A8D4F17138321DF006504B9 /* HtmlTidy.h */,
+				8A8D4F18138321DF006504B9 /* HtmlTidy.m */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -267,6 +319,36 @@
 				8A8D4E7113830C19006504B9 /* GDataXMLNode.m */,
 			);
 			path = GDataXML;
+			sourceTree = "<group>";
+		};
+		8A8D4EBE138312F1006504B9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8A8D4EE8138314FC006504B9 /* ZdfMediathekHtmlTest.m */,
+				8A8D4F141383202D006504B9 /* Data */,
+				8A8D4EBF138312F1006504B9 /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		8A8D4EBF138312F1006504B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A8D4EDD13831442006504B9 /* GHUnitIOSTestMain.m */,
+				8A8D4EC7138312F1006504B9 /* TestsAppDelegate.h */,
+				8A8D4EC8138312F1006504B9 /* TestsAppDelegate.m */,
+				8A8D4EC0138312F1006504B9 /* Tests-Info.plist */,
+				8A8D4EC4138312F1006504B9 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A8D4F141383202D006504B9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8A8D4F151383202D006504B9 /* zdf-mediathek.html */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +386,7 @@
 				8A8D4EA613830C19006504B9 /* win32tc.h in Headers */,
 				8A8D4EA713830C19006504B9 /* GDataXMLNode.h in Headers */,
 				8A8D4EA913830C19006504B9 /* GDataXML-Prefix.pch in Headers */,
+				8A8D4F19138321DF006504B9 /* HtmlTidy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +410,24 @@
 			productReference = 8A8D4E211382DA88006504B9 /* libGDataXML.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		8A8D4EB6138312F1006504B9 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A8D4ED8138312F1006504B9 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				8A8D4EB3138312F1006504B9 /* Sources */,
+				8A8D4EB4138312F1006504B9 /* Frameworks */,
+				8A8D4EB5138312F1006504B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A8D4F0D13831AFE006504B9 /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 8A8D4EB7138312F1006504B9 /* Tests.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -348,9 +449,21 @@
 			projectRoot = "";
 			targets = (
 				8A8D4E201382DA88006504B9 /* GDataXML */,
+				8A8D4EB6138312F1006504B9 /* Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A8D4EB5138312F1006504B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8D4F161383202D006504B9 /* zdf-mediathek.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8A8D4E1D1382DA88006504B9 /* Sources */ = {
@@ -383,10 +496,30 @@
 				8A8D4EA213830C19006504B9 /* utf8.c in Sources */,
 				8A8D4EA513830C19006504B9 /* win32tc.c in Sources */,
 				8A8D4EA813830C19006504B9 /* GDataXMLNode.m in Sources */,
+				8A8D4F1313831FE8006504B9 /* localize.c in Sources */,
+				8A8D4F1A138321DF006504B9 /* HtmlTidy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8D4EB3138312F1006504B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8D4EC9138312F1006504B9 /* TestsAppDelegate.m in Sources */,
+				8A8D4EDE13831442006504B9 /* GHUnitIOSTestMain.m in Sources */,
+				8A8D4EE9138314FC006504B9 /* ZdfMediathekHtmlTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A8D4F0D13831AFE006504B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A8D4E201382DA88006504B9 /* GDataXML */;
+			targetProxy = 8A8D4F0C13831AFE006504B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8A8D4E291382DA88006504B9 /* Debug */ = {
@@ -444,6 +577,57 @@
 			};
 			name = Release;
 		};
+		8A8D4ED9138312F1006504B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Supporting Files/Tests-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "Tests/Supporting Files/Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A8D4EDA138312F1006504B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Supporting Files/Tests-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "Tests/Supporting Files/Tests-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -461,6 +645,15 @@
 			buildConfigurations = (
 				8A8D4E2C1382DA88006504B9 /* Debug */,
 				8A8D4E2D1382DA88006504B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A8D4ED8138312F1006504B9 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A8D4ED9138312F1006504B9 /* Debug */,
+				8A8D4EDA138312F1006504B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
